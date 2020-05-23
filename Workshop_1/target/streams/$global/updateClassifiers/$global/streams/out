@@ -1,0 +1,336 @@
+[debug] :: resolving dependencies :: default#workshop_1$sources;0.1
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.13.2 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.13.2
+[debug] 	found org.scala-lang#scala-library;2.13.2 in sbt-chain
+[debug] 	[2.13.2] org.scala-lang#scala-library;2.13.2
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [test]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [compile-internal]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [optional]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [provided]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [runtime-internal]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [optional]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [test-internal]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [test]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [compile->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [runtime->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test->master]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [optional]
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [provided]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [plugin]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#workshop_1$sources;0.1 [scala-tool]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->default]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->optional]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-library;2.13.2 [scala-tool->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-reflect;2.13.2 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.13.2 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.13.2
+[debug] 	found org.scala-lang#scala-reflect;2.13.2 in sbt-chain
+[debug] 	[2.13.2] org.scala-lang#scala-reflect;2.13.2
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-reflect;2.13.2 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-reflect;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-reflect;2.13.2 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-reflect;2.13.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-reflect;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-reflect;2.13.2 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-reflect;2.13.2 [scala-tool->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.jline#jline;3.14.1 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.jline#jline;3.14.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.jline#jline;3.14.1
+[debug] 	found org.jline#jline;3.14.1 in sbt-chain
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.jline#jline;3.14.1 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.jline#jline;3.14.1 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.jline#jline;3.14.1 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.jline#jline;3.14.1 [scala-tool->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.jline#jline;3.14.1 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.jline#jline;3.14.1 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.jline#jline;3.14.1 [scala-tool->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->net.java.dev.jna#jna;5.3.1 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: net.java.dev.jna#jna;5.3.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;5.3.1
+[debug] 	found net.java.dev.jna#jna;5.3.1 in sbt-chain
+[debug] == resolving dependencies default#workshop_1$sources;0.1->net.java.dev.jna#jna;5.3.1 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->net.java.dev.jna#jna;5.3.1 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->net.java.dev.jna#jna;5.3.1 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->net.java.dev.jna#jna;5.3.1 [scala-tool->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->net.java.dev.jna#jna;5.3.1 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->net.java.dev.jna#jna;5.3.1 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->net.java.dev.jna#jna;5.3.1 [scala-tool->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.13.2 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.13.2
+[debug] 	found org.scala-lang#scala-compiler;2.13.2 in sbt-chain
+[debug] 	[2.13.2] org.scala-lang#scala-compiler;2.13.2
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->master]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->compile]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->optional]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#workshop_1$sources;0.1->org.scala-lang#scala-compiler;2.13.2 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 		tried /Users/michrata/.ivy2/local/org.jline/jline/3.14.1/srcs/jline-sources.jar
+[debug] 		tried /Users/michrata/.ivy2/local/org.scala-lang/scala-reflect/2.13.2/srcs/scala-reflect-sources.jar
+[debug] 		tried /Users/michrata/.ivy2/local/net.java.dev.jna/jna/5.3.1/srcs/jna-sources.jar
+[debug] 		tried /Users/michrata/.ivy2/local/org.scala-lang/scala-compiler/2.13.2/srcs/scala-compiler-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2-sources.jar
+[debug] 		tried /Users/michrata/.ivy2/local/org.scala-lang/scala-library/2.13.2/srcs/scala-library-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1-sources.jar
+[info] 	[SUCCESSFUL ] net.java.dev.jna#jna;5.3.1!jna.jar(src) (289ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.13.2!scala-reflect.jar(src) (509ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1-sources.jar
+[info] 	[SUCCESSFUL ] org.jline#jline;3.14.1!jline.jar(src) (873ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.13.2!scala-library.jar(src) (1762ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.13.2!scala-compiler.jar(src) (3022ms)
+[debug] :: resolution report :: resolve 16ms :: artifacts dl 3024ms
+[debug] 	report for default#workshop_1$sources;0.1 compile produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-compile.xml
+[debug] 	report for default#workshop_1$sources;0.1 runtime produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-runtime.xml
+[debug] 	report for default#workshop_1$sources;0.1 test produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-test.xml
+[debug] 	report for default#workshop_1$sources;0.1 provided produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-provided.xml
+[debug] 	report for default#workshop_1$sources;0.1 optional produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-optional.xml
+[debug] 	report for default#workshop_1$sources;0.1 compile-internal produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-compile-internal.xml
+[debug] 	report for default#workshop_1$sources;0.1 runtime-internal produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-runtime-internal.xml
+[debug] 	report for default#workshop_1$sources;0.1 test-internal produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-test-internal.xml
+[debug] 	report for default#workshop_1$sources;0.1 plugin produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-plugin.xml
+[debug] 	report for default#workshop_1$sources;0.1 pom produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-pom.xml
+[debug] 	report for default#workshop_1$sources;0.1 scala-tool produced in /Users/michrata/Repo/priv-repo/Scala/Workshop_1/target/scala-2.13/resolution-cache/reports/default-workshop_1$sources-scala-tool.xml
+[debug] 	resolve done (16ms resolve - 3024ms download)
