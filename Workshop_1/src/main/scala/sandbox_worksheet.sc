@@ -23,8 +23,7 @@ def power(x: Double, n: Int): Double = {
 println("power 2,3 of : " + power(5,3));
 
 // array short exercise
-import scala.collection.mutable.Map
-import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.{ArrayBuffer, Map}
 val tab = Seq.fill(100)(util.Random.nextInt(200)-100).toArray
 object Demo {
   def funTab1(args: Array[Int]): String = {
@@ -73,5 +72,7 @@ val a = Array("Mr.","Sherlock","Holmes,","who","was",
   "usually","very","late","in","the","mornings,",
   "save","upon","those","not","infrequent","occasions","when","he","was","up",
   "all","night,","was","seated","at","the","breakfast","table.")
-println(a.mkString(" "))
-println(a.reduceLeft(if (a.foreach = true) => a.foreach);
+val b = a.reduceLeft(_+ " " +_)
+println(b)
+val c = a.reduceRight(_+ " " +_)
+println(c)
